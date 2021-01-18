@@ -1,0 +1,25 @@
+.universal-input__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  .universal-input__label {
+    .asterisk {
+      color: red;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  }
+
+  .universal-input__control {
+    padding: 5px;
+    resize: vertical;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

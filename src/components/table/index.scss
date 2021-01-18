@@ -1,0 +1,33 @@
+.requests-table {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .requests-table__header,
+  .requests-table__data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+  }
+
+  .requests-table__header-cell,
+  .requests-table__data-cell {
+    flex-grow: 1;
+    margin-right: 2px;
+    background-color: #2e5781;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+
+    .link {
+      color: #fff;
+    }
+  }
+
+  .requests-table__header-cell:last-child,
+  .requests-table__data-cell:last-child {
+    margin-right: 0;
+  }
+}

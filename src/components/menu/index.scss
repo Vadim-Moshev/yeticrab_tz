@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .menu-item {
+    flex-grow: 1;
+    margin-right: 2px;
+    color: #fff;
+    background-color: #2e5781;
+    text-decoration: none;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: navy;
+    }
+  }
+}
